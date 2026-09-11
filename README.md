@@ -1,4 +1,4 @@
-\# House Price Prediction
+# House Price Prediction
 
 This is my first Machine Learning project. It is a beginner-level project where I built a simple model to predict house prices based on different property features.
 
