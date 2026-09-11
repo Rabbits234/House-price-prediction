@@ -1,49 +1,49 @@
-# 🏠 House Price Prediction
+\# House Price Prediction
 
-A beginner-friendly Machine Learning project that predicts house prices based on different property features.
+This is my first Machine Learning project. It is a beginner-level project where I built a simple model to predict house prices based on different property features.
 
-## 📌 About the Project
+## About the Project
 
-This project uses **Linear Regression** to predict the estimated price of a house.
+The project uses Linear Regression to predict the estimated price of a house.
 
-The model is trained on a synthetic dataset containing property details such as:
+The dataset contains features such as:
 
-- Area (sq ft)
-- Bedrooms
-- Bathrooms
-- Floors
-- Parking Spaces
-- Property Age
-- Location Score
+* Area (sq ft)
+* Bedrooms
+* Bathrooms
+* Floors
+* Parking Spaces
+* Property Age
+* Location Score
 
-The project also includes a simple **Streamlit web application** where users can enter property details and get a predicted house price.
+I also made a simple Streamlit web app where users can enter the property details and get a predicted house price.
 
-## 🤖 Machine Learning Model
+## Model
 
 **Algorithm:** Linear Regression
 
-The dataset is divided into:
+The dataset is split into:
 
-- **80% Training Data**
-- **20% Testing Data**
+* 80% Training Data
+* 20% Testing Data
 
-The model is evaluated using:
+The model achieved:
 
-- **R² Score:** 98.39%
-- **Mean Absolute Error (MAE):** ₹5.72 Lakh
+* **R² Score:** 98.39%
+* **Mean Absolute Error (MAE):** ₹5.72 Lakh
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Joblib
-- Streamlit
-- Matplotlib
-- Seaborn
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Joblib
+* Streamlit
+* Matplotlib
+* Seaborn
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 House-price-prediction/
@@ -59,3 +59,6 @@ House-price-prediction/
 ├── .gitignore
 └── .streamlit/
     └── config.toml
+```
+
+This is a beginner project that I built to understand the basic Machine Learning workflow, from creating the dataset and training a model to making predictions through a simple web app.
